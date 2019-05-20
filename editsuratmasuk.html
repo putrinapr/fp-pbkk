@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="fonts/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-all.css">
+    <link rel="stylesheet" href="css/chartist.css">
+    <link rel="stylesheet" href="css/morris.css">
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/c3.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <title>Edit Surat Masuk</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="dashboard.html">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="dashboard.html"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>Surat</a>
+                                <div id="submenu-4" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="suratmasuk.html">Surat Masuk</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="suratkeluar.html">Surat Keluar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>File</a>
+                                <div id="submenu-5" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Scan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Upload</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <!-- ============================================================== -->
+                    <!-- pageheader  -->
+                    <!-- ============================================================== -->
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">Edit Surat Masuk</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="ui form">
+                      <div class="field">
+                        <label>Nomor Surat</label>
+                        <input type="text" name="nomor-surat" placeholder="Nomor Surat">
+                      </div>
+                      <div class="field">
+                        <label>Sender</label>
+                        <input type="text" name="sender" placeholder="Sender">
+                      </div>
+                      <div class="field">
+                        <label>Recipient</label>
+                        <input type="text" name="recipient" placeholder="Recipient">
+                      </div>
+                      <div class="field">
+                        <label>Tanggal Terima</label>
+                        <input type="date" name="tanggal-terima" placeholder="Tanggal Terima">
+                      </div>
+                      <button class="ui primary button" type="submit">Submit</button>
+                      <button class="ui red button" type="submit">Cancel</button>
+                    </form>
+
+                        </div>
+
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- end wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <!-- jquery 3.3.1 -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- slimscroll js -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!-- main js -->
+    <script src="js/main-js.js"></script>
+    <!-- chart chartist js -->
+    <script src="js/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="js/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="js/raphael.min.js"></script>
+    <script src="js/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="js/c3.min.js"></script>
+    <script src="js/d3-5.4.0.min.js"></script>
+    <script src="js/C3chartjs.js"></script>
+    <script src="js/dashboard-ecommerce.js"></script>
+</body>
+
+</html>
